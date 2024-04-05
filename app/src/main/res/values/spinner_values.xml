@@ -3,6 +3,6 @@
     <string-array name="spinner_array">
         <item>Message1</item>
         <item>Message2</item>
-        <item>Message2</item>
+        <item>Message3</item>
     </string-array>
 </resources>
