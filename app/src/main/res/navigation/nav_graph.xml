@@ -1,0 +1,22 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragment_a">
+    <fragment
+        android:id="@+id/fragment_a"
+        android:name="com.abdtouirsi.atelier4r.FragmentA"
+        android:label="Fragment A"
+        tools:layout="@layout/fragment_a" />
+    <fragment
+        android:id="@+id/fragment_b"
+        android:name="com.abdtouirsi.atelier4r.FragmentB"
+        android:label="Fragment B"
+        tools:layout="@layout/fragment_b" />
+    <action
+        android:id="@+id/action_fragment_a_to_fragment_b"
+        app:destination="@id/fragment_b" />
+    <action
+        android:id="@+id/action_fragment_b_to_fragment_a"
+        app:destination="@id/fragment_a" />
+</navigation>
